@@ -25,7 +25,7 @@ const Restaurantes = () => {
 
     return (
         <section className="mt-[80px]">
-            <h4 className="text-center mb-[200px] text-[30px] font-bold">Restaurantes Próximos</h4>
+            <h4 className="text-center mb-[200px] text-[30px] font-bold text-[#032916]">Restaurantes Próximos</h4>
             <div className="w-full  h-[300px] bg-[url('/cidade.jpg')] bg-cover bg-center flex justify-center items-center relative">
                 <div className="absolute top-0 left-0 bg-[#1a0a013d] h-full w-full z-[1]"></div>
 

@@ -1,8 +1,9 @@
 const nav = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "Contact", href: "/contact" },
+    { name: "Inicio", href: "/" },
+    { name: "A Pousada", href: "/about" },
+    { name: "Acomodações", href: "/services" },
+    { name: "Café", href: "/contact" },
+     { name: "Contato", href: "/contact" },
 ];
 
 export default nav;

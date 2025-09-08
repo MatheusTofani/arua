@@ -18,7 +18,7 @@ const settings = {
   arrows: false,
 };
 
-const words = ["Bem-vindo", "Welcome", "Bienvenue", "Willkommen"];
+const words = ["Paz e Tranquilidade", "Refúgio na natureza", "Amanhecer dourado"];
 
 const Paralax = () => {
   return (
@@ -34,7 +34,7 @@ const Paralax = () => {
         </Slider>
 
         {/* Overlay */}
-        <div className="absolute top-0 left-0 bg-[#61260188] h-full w-full z-[1]"></div>
+        <div className="absolute top-0 left-0 bg-[#25100296] h-full w-full z-[1]"></div>
 
         {/* Parallax Background */}
         <Parallax speed={-100} className="absolute top-0 left-0 z-0">

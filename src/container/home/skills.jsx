@@ -7,7 +7,7 @@ const Skills = () => {
     const duplicatedList = [...skill, ...skill];
 
     return (
-        <div className="">
+        <div className="mt-[80px]">
             {/* Mobile: Slider com animação */}
             <div className="block md:hidden overflow-hidden py-2" role="list" aria-live="polite">
                 <div className="flex w-fit animate-slideMobile">
@@ -33,7 +33,7 @@ const Skills = () => {
                         {skill.map((item, index) => (
                             <li
                                 key={index}
-                                className="flex items-center gap-2 text-[#06542E] font-semibold"
+                                className="flex items-center gap-2 text-[#032916] font-semibold"
                             >
                                 <div className="rounded-full p-1 bg-[#06542E] text-[#fffdfd]">
                                     {item.icon}

@@ -6,10 +6,10 @@ const Hero = () => {
             className="relative w-full h-[700px]  text-[#fffdfd] flex items-center px-4 mb-[80px]"
             aria-label="Seção principal com vídeo de fundo e chamada para reserva"
         >
-            <Container>
-                <p>Bem-vindos ao</p>
-                <h1 className="text-[50px]">Logo</h1>
-                <p>
+            <Container className={"flex flex-col gap-5"}>
+                <span className="text-[24px]">Bem-vindos ao</span>
+                <h1 className="text-[80px]">Logo</h1>
+                <p className="text-[24px]">
                     Descubra a magia de Aruá: conforto, natureza e experiências
                     inesquecíveis esperam por você.
                 </p>
@@ -18,7 +18,7 @@ const Hero = () => {
 
             {/* Camada escura para contraste */}
             <div
-                className="absolute inset-0 bg-[#61260188] z-[-1]"
+                className="absolute inset-0 bg-[#25100296] z-[-1]"
                 aria-hidden="true"
             />
             {/* Vídeo de fundo */}

@@ -22,8 +22,8 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <article className="w-[50%]">
-                    <h2 className="font-bold text-[30px] text-center">Sobre a pousada</h2>
+                <article className="w-[50%] text-[#032916]">
+                    <h2 className="font-bold text-[30px] text-center mb-5">Sobre a pousada</h2>
                     <p className="text-[20px] mb-4">
                         Localizada em um dos destinos mais encantadores do litoral brasileiro, nossa pousada é o refúgio perfeito para quem busca descanso, conforto e momentos inesquecíveis.
                         Entre ruas de pedra, casarões coloniais e paisagens deslumbrantes, oferecemos uma experiência única, onde a tranquilidade se encontra com a beleza natural de Paraty.

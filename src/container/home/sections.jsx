@@ -23,7 +23,7 @@ const Sections = () => {
 
     return (
         <section className="bg-[url('/pousada.jpg')] w-full h-[500px] bg-cover bg-center bg-no-repeat relative z-[0] mb-[240px]">
-            <div className="absolute  bg-[#da54013f] h-full w-full z-[-1]"></div>
+            <div className="absolute  bg-[#25100296] h-full w-full z-[-1]"></div>
             <Container className={" text-[#fffdfd] h-full flex flex-col items-center w-full"}>
 
                 <div className="text-center my-[80px]">
@@ -45,7 +45,7 @@ const Sections = () => {
                                     alt={item.title}
                                     className="w-full h-full object-cover absolute top-0 left-0 z-0 transition-transform duration-500 ease-in-out group-hover:scale-110"
                                 />
-                                <div className="absolute top-0 left-0 bg-[#61260188] h-full w-full z-5 transition-opacity duration-500 "></div>
+                                <div className="absolute top-0 left-0 bg-[#25100296] h-full w-full z-5 transition-opacity duration-500 "></div>
                             </li>
                         ))
                     }
