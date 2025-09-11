@@ -2,7 +2,7 @@
 
 body {
     background-color: #fffdfd;
-
+font-family: var(--font-geist-sans);
 }
 
 @keyframes slideMobile {
