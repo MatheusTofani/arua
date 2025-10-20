@@ -23,8 +23,8 @@ const Diferenciais = () => {
     ]
 
     return (
-        <section className="bg-[#FF914D] h-[400px]  pt-[40px]" >
-            <Container className={"flex justify-around items-center h-full w-full gap-[3%]"}>
+        <section className="bg-[#FF914D] h-[1100px]  md:h-[400px]  pt-[40px]" >
+            <Container className={"flex flex-col gap-[80px] md:flex-row justify-center md:justify-around items-center h-full w-full md:gap-[3%] "}>
                 {card.map((item, index) => (
                     <div key={index} className="text-[#fffdfd] flex flex-col items-center justify-center  p-4 w-[30%} h-auto bg-[#06542E] relative">
                         <div className="absolute top-[-5] left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full w-[80px] h-[80px] bg-[#06542E] border-2 border-[#fffdfd] flex items-center justify-center"> {item.icon}</div>
@@ -42,3 +42,4 @@ const Diferenciais = () => {
 }
 
 export default Diferenciais;
+

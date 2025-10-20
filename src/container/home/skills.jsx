@@ -35,7 +35,7 @@ const Skills = () => {
                                 key={index}
                                 className="flex items-center gap-2 text-[#032916] font-semibold"
                             >
-                                <div className="rounded-full p-1 bg-[#06542E] text-[#fffdfd]">
+                                <div className="rounded-full p-[5px] bg-[#06542E] text-[#fffdfd]">
                                     {item.icon}
                                 </div>
                                 <p>{item.name}</p>

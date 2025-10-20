@@ -5,6 +5,7 @@ import AboutUs from "@/container/home/aboutUs";
 import Diferenciais from "@/container/home/diferenciais";
 import Faq from "@/container/home/faq";
 import Hero from "@/container/home/hero";
+import Map from "@/container/home/map";
 import Paralax from "@/container/home/paralax";
 import Rating from "@/container/home/rating";
 import Restaurantes from "@/container/home/restaurantes";
@@ -13,7 +14,7 @@ import Skills from "@/container/home/skills";
 
 export default function Home() {
   return (
-    <div>
+    <div className="md:overflow-hidden">
       <Header />
       <Skills />
       <Hero />
@@ -22,7 +23,8 @@ export default function Home() {
       <Rating />
       <Paralax />
       <Diferenciais />
-      <Restaurantes />
+      <Map />
+      <Restaurantes />  
       <Faq />
       <Footer />
       <Whatsapp />

@@ -10,7 +10,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-    const acomodacao = acomodacoes.find((a) => a.slug === params.slug);
+    const { slug } = await params; 
+
+    const acomodacao = acomodacoes.find((a) => a.slug === slug);
 
     if (!acomodacao) return {};
 
@@ -21,7 +23,8 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function AcomodacaoPage({ params }) {
-    const { slug } = params;
+
+  const { slug } = await params;
 
     const acomodacao = acomodacoes.find((a) => a.slug === slug);
 
@@ -31,7 +34,6 @@ export default async function AcomodacaoPage({ params }) {
             <Header />
             <AcomodacaoDetalheView acomodacao={acomodacao} />
             <Footer />
-
         </div>
     );
 }
